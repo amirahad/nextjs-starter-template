@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Jost&family=Libre+Baskerville&display=swap");
+
+.container {
+  max-width: 1320px !important;
+  margin: auto;
+
+  @media screen and (max-width: 1320px) {
+    padding: 0 20px;
+  }
+
+  @media screen and (max-width: 1280px) {
+    padding: 0 30px;
+  }
+}
+
+.header_1 {
+  font-family: Jost;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 84px;
+  letter-spacing: 0em;
+}
+
+.header_2 {
+  font-family: Libre Baskerville;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0em;
+}
+
+.header_3 {
+  font-family: Libre Baskerville;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+.header_4 {
+  font-family: Libre Baskerville;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 31px;
+}
+
+.header_4_italic {
+  font-family: Libre Baskerville;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.header_4_bold {
+  font-family: Libre Baskerville;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+}
+
+.header_5 {
+  font-family: Libre Baskerville;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.header_5_lite {
+  font-family: Libre Baskerville;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+.header_6 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.header_7 {
+  font-family: Libre Baskerville;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+
+.header_8 {
+  font-family: Libre Baskerville;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.paragraph_1 {
+  font-family: Libre Baskerville;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.paragraph_2 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+.paragraph_3 {
+  //styleName: P-16/120.00000476837158/Paragraph_Regular;
+  font-family: Libre Baskerville;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.paragraph_4 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.paragraph_5 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 160%;
+}
+
+.paragraph_6 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+}
+
+.paragraph_7 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 160%;
+}
+
+.paragraph_8 {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 160%;
+}
+
+.paragraph_9 {
+  font-family: Libre Baskerville;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.small {
+  font-family: Libre Baskerville;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 9.6px;
+  letter-spacing: 0em;
+}
